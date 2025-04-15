@@ -1,0 +1,54 @@
+.nav {
+  height: 88px;
+  width: 100%;
+  background-image: url("../img/nav/Nav_bg.svg");
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.nav_body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 72px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.logo img {
+    display: block; /* Устраняет добавочные отступы, связанные с inline-блоками */
+  }
+
+.login {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.sign_in{
+    background-image: url(../img/nav/login_bg.svg);
+    padding: 14px 20px;
+}
+
+.sign_in li a{
+    color: inherit;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+a{
+    
+    color: inherit;
+    
+}
+
+@media (max-width: 576px){
+    .rubish{
+        display: none;
+    }
+}

@@ -1,0 +1,41 @@
+.restaurants {
+  padding-bottom: 80px;
+}
+
+.restaurant {
+  margin-bottom: 36px;
+  background-color: rgba(117, 117, 117, 0.04);
+  background-clip: content-box;
+}
+
+.rest_header {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.restaurant_name {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.restaurant_tags {
+  font-size: 14px;
+  font-weight: 400;
+  color: #626262;
+}
+
+.delivery_time {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.rest_body img {
+  padding-bottom: 16px;
+  width: 100%;
+}
+
+@media (max-width: 576px) {
+  .sm_none {
+    display: none;
+  }
+}
